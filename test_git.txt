@@ -31,4 +31,4 @@ learngit        git@github.com:snowcitygame/learn_git.git (push)
 test    git@github.com:snowcitygame/learn_git.git (fetch)
 test    git@github.com:snowcitygame/learn_git.git (push)
 可以使用
-$ git push test master
+$ git push -u test master
