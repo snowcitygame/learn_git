@@ -22,7 +22,7 @@ $ git remote rename origin learngit
 $ git remote -v
 learngit        git@github.com:snowcitygame/learn_git.git (fetch)
 learngit        git@github.com:snowcitygame/learn_git.git (push)
-
+新建名为test的远程连接
 $ git remote add test  git@github.com:snowcitygame/learn_git.git
 
 $ git remote -v
@@ -30,4 +30,5 @@ learngit        git@github.com:snowcitygame/learn_git.git (fetch)
 learngit        git@github.com:snowcitygame/learn_git.git (push)
 test    git@github.com:snowcitygame/learn_git.git (fetch)
 test    git@github.com:snowcitygame/learn_git.git (push)
-
+可以使用
+$ git push test master
