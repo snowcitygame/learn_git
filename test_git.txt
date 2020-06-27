@@ -16,9 +16,18 @@ $ git remote -v
 origin  git@github.com:snowcitygame/learn_git.git (fetch)
 origin  git@github.com:snowcitygame/learn_git.git (push)
 
+# rename
 $ git remote rename origin learngit
 
 $ git remote -v
 learngit        git@github.com:snowcitygame/learn_git.git (fetch)
 learngit        git@github.com:snowcitygame/learn_git.git (push)
+
+$ git remote add test  git@github.com:snowcitygame/learn_git.git
+
+$ git remote -v
+learngit        git@github.com:snowcitygame/learn_git.git (fetch)
+learngit        git@github.com:snowcitygame/learn_git.git (push)
+test    git@github.com:snowcitygame/learn_git.git (fetch)
+test    git@github.com:snowcitygame/learn_git.git (push)
 
