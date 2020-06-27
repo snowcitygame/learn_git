@@ -2,7 +2,7 @@ test file
 Git Bash使用过git remote add origin git@github.com:xxx/xxx.git命令后，重启后任然能使用，不用再输入该命令
 
 改origin为learngit
-git remote add learngit git@github.com:sniwcitygame/learn_git
+git remote add learngit git@github.com:snowcitygame/learn_git
 
 $ git remote
 learngit
@@ -11,4 +11,14 @@ origin
 git add .
 git commit
 git push -u learngit master
+
+$ git remote -v
+origin  git@github.com:snowcitygame/learn_git.git (fetch)
+origin  git@github.com:snowcitygame/learn_git.git (push)
+
+$ git remote rename origin learngit
+
+$ git remote -v
+learngit        git@github.com:snowcitygame/learn_git.git (fetch)
+learngit        git@github.com:snowcitygame/learn_git.git (push)
 
