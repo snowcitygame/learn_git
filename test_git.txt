@@ -1,1 +1,2 @@
 test file
+Git Bash使用过git remote add origin git@github.com:xxx/xxx.git命令后，重启后任然能使用，不用再输入该命令
